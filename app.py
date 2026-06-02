@@ -25,5 +25,5 @@ def send_discord_webhook(webhook_url, title, content):
     return response.status_code
 
 
-status = send_discord_webhook(WEBHOOK_URL, "沒事, "測試)
+status = send_discord_webhook(WEBHOOK_URL, "沒事", "測試")
             
